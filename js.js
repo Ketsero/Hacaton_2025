@@ -102,7 +102,6 @@ dark.addEventListener('click', function () {
     light.style.pointerEvents = 'auto';
 });
 
-// Ввімкнення темної теми
 light.addEventListener('click', function () {
     light.style.opacity = 0;
     light.style.pointerEvents = 'none';
@@ -118,7 +117,7 @@ function Question() {
         input1.style.border = "10px solid rgb(0, 255, 38)"
         window.location.href = "test2.html";
     } else {
-        alert("Неправильне слово!");
+        alert("Відповідь некоректна! Спобуйте ще раз!");
         input1.style.border = '3px solid red';
     }
 };
@@ -129,7 +128,7 @@ function Question2() {
         input2.style.border = "10px solid rgb(0, 255, 38)"
         window.location.href = "test3.html";
     } else {
-        alert("Неправильне слово!");
+        alert("Відповідь некоректна! Спобуйте ще раз!");
         input2.style.border = '3px solid red';
     }
 };
@@ -140,7 +139,7 @@ function Question3() {
         input3.style.border = "10px solid rgb(0, 255, 38)"
         window.location.href = "test4.html";
     } else {
-        alert("Неправильне слово!");
+        alert("Відповідь некоректна! Спобуйте ще раз!");
         input3.style.border = '3px solid red';
     }
 };
@@ -151,7 +150,7 @@ function Question4() {
         input4.style.border = "10px solid rgb(0, 255, 38)"
         window.location.href = "index.html";
     } else {
-        alert("Неправильне слово!");
+        alert("Відповідь некоректна! Спобуйте ще раз!");
         input4.style.border = '3px solid red';
     }
 };
